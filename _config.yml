@@ -20,6 +20,7 @@ description:
 meta_description: 
 meta_keywords: "qpler, filosofia, smart, smartgov, crm"
 url: http://tob.qpler.com
+github_url: http://qpler.github.io/tob
 production_url: http://tob.qpler.com
 repo: https://github.com/qpler/tob
 disqus_shortname: 
