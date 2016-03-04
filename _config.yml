@@ -1,0 +1,65 @@
+permalink   : /:title/
+markdown    : kramdown
+highlighter : pygments
+
+paginate: 2 #6
+comments: true
+paginate_path: "/page/:num"
+
+baseurl: "" # change to empty string ""
+domain_name: tob.qpler.com
+google_analytics: 
+
+# cover: /assets/images/header-cover.png
+
+# site title, description, meta_description, meta_keywords
+# Details for the RSS feed generator
+name: The Open Bunker
+title: The Open Bunker | qpler
+description: 
+meta_description: 
+meta_keywords: "qpler, filosofia, smart, smartgov, crm"
+url: http://tob.qpler.com
+production_url: http://tob.qpler.com
+repo: https://github.com/qpler/tob
+disqus_shortname: 
+rss_path: source/
+author:
+  name      : qpler
+  image     : /assets/images/author.jpg
+  email     : hola@qpler.com
+  url       : http://tob.qpler.com
+  facebook  : http://facebook.com/fernando.dev
+  twitter   : http://twitter.com/nandomoreirame
+  instagram : http://instagram.com/nandomoreira.me
+  github    : http://github.com/qpler
+  linkedin  : http://linkedin.com/in/nandomoreirame
+  bio       : ""
+
+# thought
+thought:
+  text: 
+  author: 
+
+# Plugin: jekyll-assets
+assets:
+  dirname: /assets
+  baseurl: /assets/ # change to /assets/
+  sources:
+    - assets/images
+    - assets/fonts
+    - assets/css
+    - assets/js
+  cache: true
+  gzip: [ text/css, application/javascript ]
+
+# Compress HTML
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  ignore:
+    envs: all
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
