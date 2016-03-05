@@ -27,7 +27,7 @@ disqus_shortname:
 rss_path: source/
 author:
   name      : qpler
-  image     : https://github.com/qpler/tob/blob/gh-pages/_assets/images/author.jpg
+  image     : https://raw.githubusercontent.com/qpler/tob/gh-pages/_assets/images/author.jpg
   email     : hola@qpler.com
   url       : http://tob.qpler.com
   facebook  : 
