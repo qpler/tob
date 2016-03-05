@@ -27,7 +27,7 @@ disqus_shortname:
 rss_path: source/
 author:
   name      : qpler
-  image     : /_assets/images/author.jpg
+  image     : /assets/images/author.jpg
   email     : hola@qpler.com
   url       : http://tob.qpler.com
   facebook  : 
